@@ -1,0 +1,165 @@
+
+body{
+     margin:0;
+     overflow-x: hidden;
+     font-size: 20px;
+ }
+
+ .font{
+   font-size: 8rem;
+   margin-bottom: 20%;
+ }
+
+@media (max-width:768px){
+  .font{
+    font-size:2rem;
+    margin-bottom: 0;
+}}
+
+@media (min-width:768px) and (max-width:900px){
+  .font{
+    font-size:4rem;
+    margin-bottom: 0;
+}}
+
+@media (max-width:400px){
+  .font{
+    font-size:10px;
+    transform: translateY(150px);
+}}
+
+.pinfo{
+  display: initial;
+  margin-left: 10px;
+}
+ .head{
+  background-image: linear-gradient(90deg, rgba(195, 220, 1, 0.699) 100%, rgba(195, 220, 1, 0.699) 100%), url("./images/Carrusel2.jpg");  
+  width:100%;
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position:relative;
+  overflow: hidden; 
+}
+
+.type{
+  text-decoration: none;
+}
+.title{
+  display:flex;
+  height:350px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+.btn{
+    background-color:black;
+    color:white;
+}
+
+.btn:hover{
+ background-color: black;
+ color: #c3dc00;
+ text-decoration: none;
+} 
+
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color:#c3dc00;
+  color:black;
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+.visually-hidden{
+ color:black 
+}
+
+.display-1{
+  transform: translateY(-250px);
+}
+
+.img-fluid{
+  max-width:100%;
+  height:100%;
+  border-radius: 10px;
+}
+
+.img-border{
+    position: relative;
+    height: 100%;
+    min-height: 200px;
+}
+
+.premios{
+  background-color: #c3dc00;
+  text-align: center;
+  margin-top: 5rem;
+  width:97%;
+  margin-left: 18px;
+}
+
+
+
+.left,.right,.carousel-control{
+  border-radius: 15px;
+}
+.imgBox img{
+  border-radius: 15px;
+  width:800px;
+}
+
+
+.carousel-control.left, .carousel-control.right {
+	background: transparent;
+}
+
+
+.formulario{
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.5);
+}
+
+@media (max-width:768px){
+  .formulario{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .titleForm h3{
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+.titleForm{
+  display:flex;
+  background-color: #c3dc00;
+  color:black;
+  justify-content:center;
+  height:65px;
+}
+
+#navbarSupportedContent{
+  justify-content: flex-end;
+}
+
+.cardPremio{
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.7);
+}
+
+.item{
+  text-align: center;
+}
